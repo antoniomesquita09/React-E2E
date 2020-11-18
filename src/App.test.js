@@ -15,6 +15,7 @@ describe('End to end test with puppeteer', () => {
       devtools: true,
       slowMo: 250
     });
+
     let page = await browser.newPage();
   
     page.emulate({
